@@ -1,0 +1,25 @@
+.headerlink-title {
+    color: #6284a1;
+    text-decoration: none;
+    padding: 0 5px;
+    text-align: center;
+  }
+  
+  .headerlink-dot {
+    margin-top: -0.5rem;
+    opacity: 0;
+    transition: opacity 200ms linear;
+  }
+  
+  .headerlink-title:hover .headerlink-dot {
+    opacity: 1;
+  }
+  
+  .headerlink-dot-active {
+    margin-top: -0.5rem;
+    display: block;
+  }
+  
+  .headerlink-no-link {
+    pointer-events: none;
+  }

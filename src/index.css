@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  color: #E5FCC2;
+}
+body {
+  margin: 0;
+  font-family: 'Fira Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+body{
+  scrollbar-width: none; /*Hides scrollbar in Firefox*/
+}
+
+
+p{
+  line-height: 30px;
+}
+
+h1,
+h2{
+  color:#45ADA8;
+}
