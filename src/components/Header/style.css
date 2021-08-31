@@ -1,0 +1,7 @@
+.header {
+    position:fixed;
+    display:flex;
+    font-size: 25px;
+    background-color:#362f2f;
+    min-width: 100%;
+  }
