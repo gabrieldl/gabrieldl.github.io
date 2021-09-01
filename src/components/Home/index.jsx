@@ -1,5 +1,4 @@
 import './style.css';
-import { Link, useLocation } from 'react-router-dom';
 import React from 'react'
 
 const Home = () => {
@@ -9,6 +8,8 @@ const Home = () => {
                 <h1>Hi,</h1>
                 <p>My name is Gabriel.</p>
                 <p>I like writing software.</p>
+                <p>And drinking coffee.</p>
+                <p>(decaf)</p>
             </div>
             <div className="person">
                 <img src={`${process.env.PUBLIC_URL}/androidTurtle.png`}
