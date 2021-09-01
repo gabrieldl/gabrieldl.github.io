@@ -1,16 +1,14 @@
 .home{
-    margin-top: 10vh;
     min-width:100%;
     min-height: 100%;
     display:grid;
     grid-template-columns: 1fr 1fr;
-    justify-items: center;
 }
 
 .home .title{
     width: 100%;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
 }
 
 .home .title .p{
@@ -27,8 +25,9 @@
         grid-template-columns: 1fr;
         grid-template-rows: 2fr;
     }
-
-    .home .person img{
+    .home .title{
         width: 100%;
+        font-size: 18px;
+        text-align: center;
     }
   }

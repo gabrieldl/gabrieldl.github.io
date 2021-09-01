@@ -1,4 +1,6 @@
 .headerlink-title {
+    display: grid;
+    justify-content: left;
     color: #6284a1;
     text-decoration: none;
     text-align: center;
