@@ -2,7 +2,12 @@
     display:grid;
     font-size: 25px;
     min-width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 3fr;
     justify-content: start;
   }
 
+@media(max-width:768px){
+    .header{
+        grid-template-columns: 1fr 1fr 1fr
+    }
+}
