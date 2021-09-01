@@ -1,12 +1,11 @@
 .headerlink-title {
     color: #6284a1;
     text-decoration: none;
-    padding: 0 5px;
     text-align: center;
   }
   
   .headerlink-dot {
-    margin-top: -0.5rem;
+    margin-top: -0.1rem;
     opacity: 0;
     transition: opacity 200ms linear;
   }
@@ -16,7 +15,7 @@
   }
   
   .headerlink-dot-active {
-    margin-top: -0.5rem;
+    margin-top: -0.1rem;
     display: block;
   }
   

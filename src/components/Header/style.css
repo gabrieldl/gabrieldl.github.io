@@ -1,7 +1,8 @@
 .header {
-    position:fixed;
-    display:flex;
+    display:grid;
     font-size: 25px;
-    background-color:#362f2f;
     min-width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: start;
   }
+
