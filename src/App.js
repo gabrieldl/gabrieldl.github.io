@@ -8,13 +8,15 @@ import Projects from './components/Projects'
 function App() {
   return (
     <div className="app">
-      <Router>
-        <Route path='/:page' component={Header} />
-        <Route exact path='/' component={Header} />
-        <Route exact path="/" component={Home}></Route>
-        <Route exact path="/home" component={Home}></Route>
-        <Route exact path="/about" component={About}></Route>
-        <Route exact path="/projects" component={Projects}></Route>
+      <Router basename={process.env.PUBLIC_URL}>
+        <Switch>
+          <Route path='/:page' component={Header} />
+          <Route exact path='/' component={Header} />
+          <Route exact path="/" component={Home}></Route>
+          <Route exact path="/home" component={Home}></Route>
+          <Route exact path="/about" component={About}></Route>
+          <Route exact path="/projects" component={Projects}></Route>
+        </Switch>
       </Router>
     </div>
   );
