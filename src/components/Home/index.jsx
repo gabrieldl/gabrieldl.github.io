@@ -5,11 +5,12 @@ const Home = () => {
     return (
         <div className="home">
             <div className="title">
+            <br/>
                 <h1>Hi,</h1>
-                <p>My name is Gabriel.</p>
-                <p>I like writing software.</p>
-                <p>And drinking coffee.</p>
-                <p>(decaf)</p>
+                <p>My name is Gabriel.<br/><br/>
+                I like writing software.<br/><br/>
+                And drinking coffee.<br/><br/>
+                (decaf)</p>
             </div>
             <div className="person">
                 <img src={`${process.env.PUBLIC_URL}/androidTurtle.png`}
