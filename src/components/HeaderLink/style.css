@@ -24,3 +24,9 @@
   .headerlink-no-link {
     pointer-events: none;
   }
+
+  @media(max-width:768px){
+      .headerlink-title{
+          justify-content: center;
+      }
+  }
